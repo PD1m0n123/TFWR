@@ -1,0 +1,11 @@
+{
+    // Отключает анализ типов и подсветку ошибок от Pylance (основной языковой сервер)
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.diagnosticSeverityOverrides": {
+        "reportUnboundVariable": "none",
+        "reportUndefinedVariable": "none",
+        "reportGeneralTypeIssues": "none"
+    },
+    // Если у вас включен встроенный линтер Ruff или Flake8, отключаем и их в этой папке
+    "python.linting.enabled": false
+}
